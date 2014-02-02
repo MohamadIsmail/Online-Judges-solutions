@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{921B52D2-ED9A-4D87-BC26-B1688BD341D9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Level2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="23 Out of 5.cpp" />
+    <ClCompile Include="500!.cpp" />
+    <ClCompile Include="A change in Thermal unit accepted.cpp" />
+    <ClCompile Include="Abstract Names accepted.cpp" />
+    <ClCompile Include="All in All accepted.cpp" />
+    <ClCompile Include="Andy%27s First Dictionary_Accepted.cpp" />
+    <ClCompile Include="Andy%27s Second Dictionary_Accepted.cpp" />
+    <ClCompile Include="Babelfish_Accepted.cpp" />
+    <ClCompile Include="Beautiful Numbers.cpp" />
+    <ClCompile Include="Big_Int.cpp" />
+    <ClCompile Include="Burger Time_Accepted.cpp" />
+    <ClCompile Include="C - Three-Square.cpp" />
+    <ClCompile Include="Chessboard in FEN.cpp" />
+    <ClCompile Include="Decoding_Accepted.cpp" />
+    <ClCompile Include="Derivation Sequence.cpp" />
+    <ClCompile Include="Determine the score.cpp" />
+    <ClCompile Include="Digital Fortress_accepted.cpp" />
+    <ClCompile Include="dividing Coins.cpp" />
+    <ClCompile Include="Extra Spaces accepted.cpp" />
+    <ClCompile Include="Factorial Recusion_Solved.cpp" />
+    <ClCompile Include="Fibonacci Sequence Recusion_Solved.cpp" />
+    <ClCompile Include="Free Spots accepted.cpp" />
+    <ClCompile Include="Generating fast_accepted.cpp" />
+    <ClCompile Include="Go.cpp" />
+    <ClCompile Include="Go_recursion.cpp" />
+    <ClCompile Include="Hay points_Accepted.cpp" />
+    <ClCompile Include="I Can Guess the Data Structure!.cpp" />
+    <ClCompile Include="Just prune the list_Acc.cpp" />
+    <ClCompile Include="Kindergarten Counting Game accepted.cpp" />
+    <ClCompile Include="Letter Frequency_Accepted.cpp" />
+    <ClCompile Include="Maximum Area_Solved.cpp" />
+    <ClCompile Include="Maximum Element_Solved.cpp" />
+    <ClCompile Include="mother bear accepted.cpp" />
+    <ClCompile Include="Mother Bear Recursion_Solved.cpp" />
+    <ClCompile Include="Number Of Digits_Solved.cpp" />
+    <ClCompile Include="Odd sum Recursion_Solved.cpp" />
+    <ClCompile Include="one two three accepted.cpp" />
+    <ClCompile Include="Open source.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <MinimalRebuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</MinimalRebuild>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Default</BasicRuntimeChecks>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Async</ExceptionHandling>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <MinimalRebuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</MinimalRebuild>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Default</BasicRuntimeChecks>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Async</ExceptionHandling>
+    </ClCompile>
+    <ClCompile Include="optimal parking accepted.cpp" />
+    <ClCompile Include="Parentheses Balance_Accepted.cpp" />
+    <ClCompile Include="Periodic Strings_Accepted.cpp" />
+    <ClCompile Include="Pesky palindromes_Accepted.cpp" />
+    <ClCompile Include="Phone List_Accepted.cpp" />
+    <ClCompile Include="Rat Attack.cpp" />
+    <ClCompile Include="Reverse recursion_Solved.cpp" />
+    <ClCompile Include="Reverse Words_Solved.cpp" />
+    <ClCompile Include="sort sort and sort !!.cpp" />
+    <ClCompile Include="Square sums accepted.cpp" />
+    <ClCompile Include="Symmetric Matrix_Accepted.cpp" />
+    <ClCompile Include="Ternary_Accepted.cpp" />
+    <ClCompile Include="The Department of Redundancy Department_Accepted.cpp" />
+    <ClCompile Include="The path in the colored field_accepted.cpp" />
+    <ClCompile Include="throwing cards away_Accepted.cpp" />
+    <ClCompile Include="Transformations_Solved.cpp" />
+    <ClCompile Include="Truckloads_Accepted.cpp" />
+    <ClCompile Include="Unsorted sequence_Solved.cpp" />
+    <ClCompile Include="What is the Median_accepted.cpp" />
+    <ClCompile Include="word scramble accepted.cpp" />
+    <ClCompile Include="XO_Solved.cpp" />
+    <ClCompile Include="Zeros and Ones.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="1.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
